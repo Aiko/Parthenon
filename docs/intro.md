@@ -2,46 +2,23 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Demo Video
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover Aiko Mail in **2 minutes**.
 
-## Getting Started
+<video controls className="demovid">
+  <source src="https://aikomail.com/img/demo.mp4"/>
+</video>
 
-Get started by **creating a new site**.
+:::info
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+It is normal for the initial loading of the app to last **a long time**.
 
-### What you'll need
+:::
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+If you don't already have it, download Aiko Mail **[here](https://aikomail.com/download)**.
 
-## Generate a new site
+### What's next?
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- Check out our **[Getting Started](/docs/category/getting-started)** page.
+- When you are ready, see our **[advanced features](/docs/category/more-features)**.
