@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
+  --ifm-color-primary: #486fff;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -19,7 +19,7 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: #486fff;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -27,4 +27,60 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.demovid{
+  border-radius: 5px;
+  width: 100%;
+      margin-bottom: 20px;
+}
+.footer__col{
+  text-align: center;
+}
+.footer__items{
+  display: inline;
+    margin-right: 20px;
+}
+.navbar{
+  height: 80px !important;
+}
+.themedImage_ToTc{
+  width: 140px;
+}
+.navbar__item{
+    margin-top: 4px;
+}
+.navbar__items--right .navbar__link{
+      background: #486fff;
+    border-radius: 5px;
+    color: #fff;
+    padding: .85rem 1.8rem;
+    margin-right: 20px;
+    font-weight: 600;
+    margin-top: 0 !important;
+}
+.iconExternalLink_nPIU{
+  display: none;
+}
+
+.footer__link-item{
+color: #6c7a87;
+}
+.footer__link-item{
+  margin: .6rem;
+}
+.footer__items{
+      display: inline-flex;
+}
+.footer__copyright{
+      color: #9da6af !important;
+}
+.footer__link-separator{
+  display: none;
+}
+.pagination-nav{
+  display: none;
+}
+.table-of-contents{
+  display: none;
 }
