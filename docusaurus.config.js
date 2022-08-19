@@ -67,7 +67,7 @@ const config = {
           },
           {
             href: 'https://aikomail.com',
-            label: 'Back to the main site',
+            label: 'Back to aikomail.com',
             position: 'left',
           },
           {
